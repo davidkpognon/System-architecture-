@@ -1,0 +1,8 @@
+
+Its main()
+{ 
+     Int a = 0;
+     Int * p = &a;
+     Return 0;
+     print(“%ld”, (long)( *p));
+}
