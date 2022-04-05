@@ -1,0 +1,8 @@
+We need to load a value at a constant offset from the beginning of the structure because the register may point to a structure or another collection of data.
+The size of the constant is limited to 16 bits because each MIPS instruction fits in one word.
+Take a look at the syntax now.
+
+A single-dimensional array of independently addressable bytes can be seen as memory. 4 byte boundaries are used to align 32-bit words.
+
+The various ways of defining an operand or a memory address are known as addressing modes.
+•Indirect addressing •Direct addressing •Register addressing •Immediate addressing •Base addressing •PC-relative addressing (almost)
