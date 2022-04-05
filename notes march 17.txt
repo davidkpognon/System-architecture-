@@ -1,0 +1,15 @@
+Simplicity is advantageous. regularity
+size-specific instructions
+there are only a few different types of instruction
+The first six bits of the opcode are always used.
+The smaller the instruction set, the faster it is.
+There are a limited amount of registers in the register file, and there are a restricted number of addressing modes.
+Make the most typical argument. Instructions with immediate operands can be written using fast arithmetic operands from the register file (load-store machine).
+Good design necessitates reasonable tradeoffs.
+three different types of instruction
+Our MIPS implementation is based on memory-reference instructions that are simplified: arithmetic-logical instructions (lw, sw): control flow instructions for add, sub, and or slt: j, beq
+The program counter (PC) is used in generic implementations to give the instruction address and fetch the instruction from memory (and update the PC)
+decipher the command (and read registers)
+carry out the command
+After reading the registers, all instructions (except j) use the ALU.
+The MIPS implementation's functional units are made up of two types of logic elements: those that operate on data values and those that contain state. The elements that work with data values are all combinational, meaning their outputs are solely dependent on the current inputs.
