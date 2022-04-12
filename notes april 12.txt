@@ -1,0 +1,21 @@
+116 bit number:
+1000000000100001 (leading
+determines
+his number is negative)
+sign extension
+(keep
+sign/preserve
+sign) :
+100000000
+20001
+7
+TUU
+1000100000010000000001000000
+PC+4-
+>1000100000010000000001000000
+100010001000000100000000010000
+This scheme make the eff. address
+be 32-bit, quite large
+if original positive:0100000000100001
+sign extension:
+0000000000000000100000000100001
