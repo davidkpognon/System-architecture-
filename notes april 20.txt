@@ -1,0 +1,38 @@
+separated by comma
+(2) Within object, always prefix family name
+(anti naming convention of human societies)
+(3) using column "." for initial value
+(4) equivalent to name-space in C++
+(5) JSON.stringify(Exchange);
+(6) a = JSON.parse(JSON.stringify(Exchange));
+(7) multi-dimensional objects
+const GOO
+id: -1,
+myname:"
+type:0,
+timecap:2,
+myrank:0,
+opponent: -1,
+opprank:0,
+oppname:
+mycolor: TRANSF
+oppcolor: TRANS
+stone: new Arra
+mytime:0,
+ascript class
+var Exchange
+mode:"'
+id:
+-1,
+act:
+ready: true,
+messages: null,
+receiver: new XMLHt
+init: function()
+{
+Exchange.act
+Exchange.mode
+Exchange.ready
+Exchange.id
+=
+startrecev :
